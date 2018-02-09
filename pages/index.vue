@@ -1,29 +1,26 @@
 <template>
-  <section class="container">
-	  <home></home>
-    
-  </section>
+	<div>
+		<v-app>
+			<home></home>
+		</v-app>
+	</div>  
 </template>
 
 <script>
 
-import Home from '~/components/home/index.vue'
+import Home from '~/components/home/index.vue';
 
 export default {
+	layout:'default',
   	components: {
-    //AppLogo,
-    	Home
+    	Home,
+	
   	}
 }
 </script>
 
 <style>
-
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+/* .container {
+  
+} */
 </style>
