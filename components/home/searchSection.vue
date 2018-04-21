@@ -10,6 +10,7 @@
                         single-line
                         append-icon="search"
                         ></v-text-field>
+                        <!-- :type="'password'" -->
                     </v-flex>
                     <v-flex xs2>
                         <v-btn color="primary" dark large>Search</v-btn>
